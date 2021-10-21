@@ -1,5 +1,3 @@
-roblox.toml
-selene.toml
+node_modules
 .vscode
-src/LightningExplosion.lua
-src/LightningSparks.lua
+out
