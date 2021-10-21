@@ -24,7 +24,7 @@ BoltPart.Material = Enum.Material.Neon
 BoltPart.Color = Color3.new(1, 1, 1)
 BoltPart.Transparency = 1
 
-local PartCache = require(script.Parent.PartCache:WaitForChild("PartCache"))
+local PartCache = require(script.PartCache:WaitForChild("PartCache"))
 local LightningCache = PartCache.new(BoltPart, PARTS_IN_CACHE)
 LightningCache:SetCacheParent(parent)
 
